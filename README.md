@@ -39,19 +39,23 @@ Principais medidas criadas:
 * **Ticket Médio:** Análise do valor médio gasto por pedido.
 * **Comparativo Anual:** Visualização de tendências ano contra ano (YoY) para identificar sazonalidade.
 
-## 🚀 Principais Insights
+### 🚀 Principais Insights
+## 1. Evolução do Faturamento (Crescimento)
+📈 Tendência de Alta: Ao comparar o período de Janeiro a Agosto, o faturamento de 2018 superou consistentemente o de 2017, validando o crescimento da operação.
 
-### 1. Evolução do Faturamento
-![Análise Temporal](Analise_Temporal.png)
-* **📈 Crescimento Acelerado (Jan-Ago):** Ao comparar o mesmo período (Janeiro a Agosto), observa-se que 2018 superou consistentemente o faturamento de 2017, validando a tendência de alta.
-* **⚠️ Observação sobre os Dados:** A queda abrupta observada a partir de setembro de 2018 reflete o **fim da janela temporal do dataset público**, e não uma queda real no desempenho de vendas da empresa.
+⚠️ Nota sobre os dados: A queda abrupta visualizada a partir de setembro de 2018 deve-se ao fim da janela temporal do dataset público, e não a uma perda real de receita.
 
-### 2. Performance Logística
-![Análise Logística](Analise_Logistica.png)
-* **🎯 SLA Global vs Meta:** O indicador geral de entregas no prazo fechou em **93,55%**, ficando ligeiramente abaixo da meta estratégica de 95%.
-* **🚚 Gargalo Regional Crítico:** Aprofundando a visão, identificou-se uma disparidade severa. Enquanto o Sudeste mantém entregas acima de 90%, estados do Nordeste como **Alagoas (AL)** e **Maranhão (MA)** sofrem com taxas abaixo de 85%.
-    * *Ação Recomendada:* Revisão urgente de transportadoras parceiras para a região Nordeste ou ajuste preventivo do prazo prometido no checkout (Lead Time).
+## 2. SLA de Entrega (Meta vs. Realizado)
+❌ Meta não atingida: Respondendo à questão estratégica sobre o cumprimento de prazos: a empresa não atingiu a meta global.
 
+📊 Os Números: O indicador de entregas no prazo fechou em 93,55%, ficando abaixo do objetivo estipulado de 95%. Isso indica que, apesar da alta performance, a promessa feita ao cliente no checkout foi quebrada em quase 7% dos casos, exigindo planos de ação para recuperação da confiança.
+
+## 3. Eficiência Logística (Gargalos Regionais)
+🚚 Disparidade Regional: A análise geográfica revelou onde estão os principais ofensores do SLA. Enquanto a região Sudeste mantém entregas acima de 90% de eficiência, o Nordeste sofre com graves gargalos.
+
+📍 Pontos Críticos: Estados como Alagoas (AL) e Maranhão (MA) apresentam taxas de entrega no prazo inferiores a 85%.
+
+💡 Ação Recomendada: É urgente revisar os contratos com transportadoras nessas rotas ou ajustar o cálculo de Lead Time (prazo prometido) no site para essas regiões, evitando gerar frustração no cliente.
 ## 📂 Fonte de Dados
 
 O conjunto de dados utilizado neste projeto é público e foi disponibilizado pela **Olist** (maior loja de departamentos dos marketplaces brasileiros).
