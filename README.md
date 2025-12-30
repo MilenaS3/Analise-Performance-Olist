@@ -1,2 +1,51 @@
-# Analise-Performance-Olist
-Dashboard de Vendas e Logística com SQL e Power BI
+# 📊 Dashboard de Performance de Vendas & Logística (Olist)
+
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
+[![Power BI](https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://github.com/MilenaS3/Analise-Performance-Olist/blob/main/Dashboard.png)
+[![SQL Server](https://img.shields.io/badge/SQL_Server-Queries-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://github.com/MilenaS3/Analise-Performance-Olist/blob/main/SQLQuery_tratamento.sql)
+
+## 🖼️ Visão Geral do Painel
+
+![Dashboard Completo](Dashboard.png)
+*(Visão geral do painel executivo focado em KPIs de vendas e logística)*
+
+## 💼 O Desafio de Negócio
+
+Este projeto analisa dados reais do **Olist** (E-commerce brasileiro) para responder a perguntas estratégicas da diretoria sobre a operação entre 2016 e 2018:
+1.  **Evolução do Faturamento:** O crescimento das vendas é consistente ou sazonal?
+2.  **Eficiência Logística:** Onde estão os gargalos de entrega no Brasil?
+3.  **SLA de Entrega:** Estamos cumprindo o prazo prometido ao cliente?
+
+## 🛠️ Tecnologias Utilizadas
+
+* **SQL Server:** Extração, limpeza de dados (Data Cleaning) e criação de Views para otimizar a performance.
+* **Power BI:** Modelagem de dados (Star Schema), cálculos avançados DAX e Storytelling.
+* **Figma/Design:** Criação de background e identidade visual personalizada.
+
+## ⚙️ Etapas do Projeto
+
+### 1. Tratamento de Dados (SQL)
+Os dados brutos continham problemas de tipagem e registros nulos. Foi criada uma View (`vw_fVendas`) no SQL para garantir a integridade antes da importação:
+* Correção de tipos de dados (String para Decimal em valores monetários).
+* Cálculo de `Dias_Atraso` direto na fonte.
+* Unificação de tabelas de Pedidos e Itens.
+
+### 2. Modelagem (Star Schema)
+No Power BI, o modelo foi estruturado com tabela Fato (`fVendas`) e Dimensões (`dCalendario`, `dClientes`, `dProdutos`), garantindo alta performance nos filtros.
+
+### 3. Análises e DAX
+Principais medidas criadas:
+* **% SLA de Entrega:** `CALCULATE(COUNTROWS(Vendas), Dias_Atraso <= 0) / COUNTROWS(Vendas)`
+* **Ticket Médio:** Análise do valor médio gasto por pedido.
+* **Comparativo Anual:** Visualização de tendências ano contra ano (YoY) para identificar sazonalidade.
+
+## 🚀 Principais Insights
+
+![Análise Logística](Analise_Logistica.png)
+
+* **Gargalo Regional:** Identificou-se que estados do Nordeste, especificamente **Alagoas (AL)** e **Maranhão (MA)**, possuem as piores taxas de cumprimento de prazo (SLA abaixo de 85%), enquanto o Sudeste mantém média superior a 90%.
+* **Ação Recomendada:** Revisão dos contratos com transportadoras que atendem o Nordeste ou ajuste do cálculo de frete/prazo estimado no site para evitar frustração do cliente.
+
+---
+**Autor:** Milena Soares de Oliveira
+[LinkedIn](https://www.linkedin.com/in/milena-soares12/)
