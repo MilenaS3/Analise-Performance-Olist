@@ -20,7 +20,7 @@ Este projeto analisa dados reais do **Olist** (E-commerce brasileiro) para respo
 
 * **SQL Server:** Extração, limpeza de dados (Data Cleaning) e criação de Views para otimizar a performance.
 * **Power BI:** Modelagem de dados (Star Schema), cálculos avançados DAX e Storytelling.
-* **Figma/Design:** Criação de background e identidade visual personalizada.
+* **PowerPoint:** Criação de background e identidade visual personalizada.
 
 ## ⚙️ Etapas do Projeto
 
@@ -43,7 +43,8 @@ Principais medidas criadas:
 
 ### 1. Evolução do Faturamento
 ![Análise Temporal](Analise_Temporal.png)
-* **📈 Crescimento Acelerado (YoY):** A análise temporal revelou que o crescimento das vendas é **consistente**, superando os anos anteriores mês a mês. O ano de 2018 (linha em destaque) apresenta faturamento superior a 2017 em todos os meses, validando a estratégia de expansão do marketplace.
+* **📈 Crescimento Acelerado (Jan-Ago):** Ao comparar o mesmo período (Janeiro a Agosto), observa-se que 2018 superou consistentemente o faturamento de 2017, validando a tendência de alta.
+* **⚠️ Observação sobre os Dados:** A queda abrupta observada a partir de setembro de 2018 reflete o **fim da janela temporal do dataset público**, e não uma queda real no desempenho de vendas da empresa.
 
 ### 2. Performance Logística
 ![Análise Logística](Analise_Logistica.png)
