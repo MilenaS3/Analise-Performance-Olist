@@ -6,7 +6,7 @@
 
 ## 🖼️ Visão Geral do Painel
 
-[![Dashboard Completo](/MilenaS3/Analise-Performance-Olist/raw/main/Dashboard.png)](/MilenaS3/Analise-Performance-Olist/blob/main/Dashboard.png)
+![Dashboard Completo](https://github.com/MilenaS3/Analise-Performance-Olist/blob/main/Dashboard.png)
 *(Visão geral do painel executivo focado em KPIs de vendas e logística)*
 
 ## 💼 O Desafio de Negócio
@@ -45,13 +45,12 @@ Principais medidas criadas:
 ## 🚀 Principais Insights
 
 ### 1. Evolução do Faturamento (Crescimento)
-[![Análise Temporal](/MilenaS3/Analise-Performance-Olist/raw/main/Analise_Temporal.png)](/MilenaS3/Analise-Performance-Olist/blob/main/Analise_Temporal.png)
-
+![Análise Temporal](https://github.com/MilenaS3/Analise-Performance-Olist/blob/main/Analise_Temporal.png)
 * **📈 Tendência de Alta:** Ao comparar o período de Janeiro a Agosto, o faturamento de 2018 superou consistentemente o de 2017, validando o crescimento da operação.
 * **⚠️ Nota sobre os dados:** A queda abrupta visualizada a partir de setembro de 2018 deve-se ao fim da janela temporal do dataset público, e não a uma perda real de receita.
 
 ### 2. Eficiência Logística (Gargalos Regionais)
-[![Análise Logística](/MilenaS3/Analise-Performance-Olist/raw/main/Analise_Logistica.png)](/MilenaS3/Analise-Performance-Olist/blob/main/Analise_Logistica.png)
+![Análise Logística](https://github.com/MilenaS3/Analise-Performance-Olist/blob/main/Analise_Logistica.png)
 
 * **🚚 Disparidade Regional:** A análise geográfica revelou onde estão os principais ofensores do SLA. Enquanto a região **Sudeste** mantém entregas acima de 90% de eficiência, o **Nordeste** sofre com graves gargalos.
 * **📍 Pontos Críticos:** Estados como **Alagoas (AL)** e **Maranhão (MA)** apresentam taxas de entrega no prazo inferiores a **85%**.
