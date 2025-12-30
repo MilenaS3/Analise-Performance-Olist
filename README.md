@@ -41,14 +41,16 @@ Principais medidas criadas:
 
 ## 🚀 Principais Insights
 
+### 1. Evolução do Faturamento
+![Análise Temporal](Analise_Temporal.png)
+* **📈 Crescimento Acelerado (YoY):** A análise temporal revelou que o crescimento das vendas é **consistente**, superando os anos anteriores mês a mês. O ano de 2018 (linha em destaque) apresenta faturamento superior a 2017 em todos os meses, validando a estratégia de expansão do marketplace.
+
+### 2. Performance Logística
 ![Análise Logística](Analise_Logistica.png)
+* **🎯 SLA Global vs Meta:** O indicador geral de entregas no prazo fechou em **93,55%**, ficando ligeiramente abaixo da meta estratégica de 95%.
+* **🚚 Gargalo Regional Crítico:** Aprofundando a visão, identificou-se uma disparidade severa. Enquanto o Sudeste mantém entregas acima de 90%, estados do Nordeste como **Alagoas (AL)** e **Maranhão (MA)** sofrem com taxas abaixo de 85%.
+    * *Ação Recomendada:* Revisão urgente de transportadoras parceiras para a região Nordeste ou ajuste preventivo do prazo prometido no checkout (Lead Time).
 
-* **📈 Crescimento Acelerado (YoY):** A análise temporal revelou que o crescimento das vendas é **consistente**, superando os anos anteriores mês a mês. O ano de 2018 (linha destaque) apresenta faturamento superior a 2017 em todos os meses, validando a estratégia de expansão do marketplace.
-
-* **🎯 SLA Global vs Meta:** O indicador geral de entregas no prazo fechou em **93,55%**, ficando ligeiramente abaixo da meta estratégica de 95%. A análise demonstra que esse desvio não é sistêmico, mas sim concentrado em clusters geográficos específicos.
-
-* **🚚 Gargalo Regional Crítico:** Aprofundando a visão do SLA, identificou-se uma disparidade severa. Enquanto o Sudeste mantém entregas acima de 90%, estados do Nordeste como **Alagoas (AL)** e **Maranhão (MA)** sofrem com taxas abaixo de 85%.
-    * *Ação Recomendada:* Revisão urgente de transportadoras parceiras para a região Nordeste ou ajuste preventivo do prazo prometido no checkout (Lead Time) para alinhar a expectativa do cliente.
 ## 📂 Fonte de Dados
 
 O conjunto de dados utilizado neste projeto é público e foi disponibilizado pela **Olist** (maior loja de departamentos dos marketplaces brasileiros).
